@@ -18,7 +18,7 @@ import com.example.demo.service.IProduitService;
 
 @RestController
 @RequestMapping("/api/produit")
-@CrossOrigin
+@CrossOrigin 
 public class ProduitController {
 
 	@Autowired

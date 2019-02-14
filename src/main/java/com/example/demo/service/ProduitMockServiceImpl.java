@@ -37,6 +37,7 @@ public class ProduitMockServiceImpl implements IProduitService {
 
 	@Override
 	public void deleteProduit(String ref) {
+		System.out.println("delete fonction    "+ref);
 		Produit produit = new Produit();
 		produit.setRef(ref);
 		
